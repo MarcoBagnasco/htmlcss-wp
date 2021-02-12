@@ -4,9 +4,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 600;
+}
 
 /* UTILITIES */
 .container{
-    width:1170px;
+    width:1160px;
     margin:0 auto;
+}
+
+/* HEADER */
+header{
+    margin-bottom: 40px;
+}
+header .brand .logo{
+    width: 165px;
+    margin-bottom: 40px;
+}
+
+/* MAIN-MENU */
+.main-menu > li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+}
+.main-menu > li:last-child{
+    margin-right: 0;
+}
+.main-menu li a{
+    text-decoration: none;
+    color: #858585;
 }
