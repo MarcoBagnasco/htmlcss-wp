@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;;
     font-weight: 300;
 }
 h1,
@@ -44,4 +45,24 @@ header .brand .logo{
 .main-menu li a{
     text-decoration: none;
     color: #858585;
+}
+
+/* HERO SECT. */
+.hero{
+    height: 500px;
+    margin-bottom: 40px;
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    border-radius: 10px;
+    color:white;
+}
+.veil{
+    height:100%;
+    padding: 320px 555px 65px 50px;
+    background-color: rgba(0,0,0,.2);
+    border-radius: 10px;
+}
+.hero h2{
+    font-size: 28px;
+    font-weight: 500;
 }
