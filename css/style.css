@@ -6,8 +6,9 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;;
+    font-size: 16px;
     font-weight: 300;
+    color: #858585;
 }
 h1,
 h2,
@@ -65,4 +66,10 @@ header .brand .logo{
 .hero h2{
     font-size: 28px;
     font-weight: 500;
+}
+/* LEADERSHIP SECT. */
+.title-area h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
 }
