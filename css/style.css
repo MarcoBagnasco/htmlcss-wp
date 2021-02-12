@@ -48,6 +48,10 @@ header .brand .logo{
     text-decoration: none;
     color: #858585;
 }
+.main-menu li a:hover{
+    color:black;
+    font-weight: 500;
+}
 
 /* HERO SECT. */
 .hero{
