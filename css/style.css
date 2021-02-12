@@ -121,3 +121,15 @@ header .brand .logo{
     color: black;
 }
 
+/* FOOTER */
+footer{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 400;
+    color: black;
+}
+footer::after{
+    content: '\2665';
+    font-size: 20px;
+    color: red;
+}
