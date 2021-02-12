@@ -24,6 +24,16 @@ h6{
     width:1160px;
     margin:0 auto;
 }
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.veil{
+    height:100%;
+    background-color: rgba(0,0,0,.2);
+    border-radius: 10px;
+}
 
 /* HEADER */
 header{
@@ -57,19 +67,46 @@ header .brand .logo{
     border-radius: 10px;
     color:white;
 }
-.veil{
-    height:100%;
+.hero >.veil{
     padding: 320px 555px 65px 50px;
-    background-color: rgba(0,0,0,.2);
-    border-radius: 10px;
 }
 .hero h2{
     font-size: 28px;
     font-weight: 500;
 }
 /* LEADERSHIP SECT. */
-.title-area h2{
+.leadership .title-area{
+    margin-bottom: 40px;
+}
+.leadership .title-area h2{
     font-size: 36px;
     font-weight: 700;
     color: black;
+}
+
+/* COLUMNS */
+.leadership .columns .col{
+    float: left;
+    width: 20%;
+    margin-bottom: 40px;
+}
+.leadership .columns .col:nth-child(2){
+    width: 56%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.img-col{
+    height:200px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.left-img-col{
+    background-image: url("../img/img-1.jpg");
+}
+.central-img-col{
+    background-image: url("../img/img-2.jpg");
+}
+.right-img-col{
+    background-image: url("../img/img-3.jpg");
 }
