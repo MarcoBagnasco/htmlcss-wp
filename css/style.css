@@ -10,19 +10,14 @@ body{
     font-weight: 300;
     color: #858585;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-    font-weight: 600;
-}
 
 /* UTILITIES */
 .container{
     width:1160px;
     margin:0 auto;
+}
+.mb-40{
+    margin-bottom: 40px;
 }
 .clearfix::after{
     content: '';
@@ -36,12 +31,8 @@ h6{
 }
 
 /* HEADER */
-header{
-    margin-bottom: 40px;
-}
 header .brand .logo{
     width: 165px;
-    margin-bottom: 40px;
 }
 
 /* MAIN-MENU */
@@ -61,23 +52,20 @@ header .brand .logo{
 /* HERO SECT. */
 .hero{
     height: 500px;
-    margin-bottom: 40px;
     background-image: url("../img/banner.jpg");
     background-position: center;
     border-radius: 10px;
     color:white;
 }
-.hero >.veil{
+.hero > .veil{
     padding: 320px 555px 65px 50px;
 }
 .hero h2{
     font-size: 28px;
     font-weight: 500;
 }
+
 /* LEADERSHIP SECT. */
-.leadership .title-area{
-    margin-bottom: 40px;
-}
 .leadership .title-area h2{
     font-size: 36px;
     font-weight: 700;
@@ -85,11 +73,9 @@ header .brand .logo{
 }
 
 /* COLUMNS */
-/* TITLE AREA */
 .leadership .columns .col{
     float: left;
     width: 20%;
-    margin-bottom: 40px;
 }
 .leadership .columns .col:nth-child(2){
     width: 56%;
@@ -118,6 +104,7 @@ header .brand .logo{
 /* COLUMNS CONTENT */
 .columns .col > h4{
     margin-bottom: 10px;
+    font-weight: 600;
     color: black;
 }
 
