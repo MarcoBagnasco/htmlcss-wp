@@ -85,6 +85,7 @@ header .brand .logo{
 }
 
 /* COLUMNS */
+/* TITLE AREA */
 .leadership .columns .col{
     float: left;
     width: 20%;
@@ -95,8 +96,11 @@ header .brand .logo{
     margin-left: 2%;
     margin-right: 2%;
 }
+
+/* IMG-COL */
 .img-col{
     height:200px;
+    margin-bottom: 20px;
     border-radius: 10px;
     background-size: cover;
     background-position: center;
@@ -110,3 +114,10 @@ header .brand .logo{
 .right-img-col{
     background-image: url("../img/img-3.jpg");
 }
+
+/* COLUMNS CONTENT */
+.columns .col > h4{
+    margin-bottom: 10px;
+    color: black;
+}
+
