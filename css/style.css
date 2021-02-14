@@ -24,11 +24,6 @@ body{
     display: table;
     clear: both;
 }
-.veil{
-    height:100%;
-    background-color: rgba(0,0,0,.2);
-    border-radius: 10px;
-}
 
 /* HEADER */
 header .brand .logo{
@@ -62,7 +57,10 @@ header .brand .logo{
     color:white;
 }
 .hero > .veil{
+    height:100%;
     padding: 320px 555px 65px 50px;
+    background-color: rgba(0,0,0,.2);
+    border-radius: 10px;
 }
 .hero h2{
     font-size: 28px;
@@ -94,6 +92,13 @@ header .brand .logo{
     border-radius: 10px;
     background-size: cover;
     background-position: center;
+}
+.img-col::before{
+    content: '';
+    display: block;
+    height:100%;
+    background-color: rgba(0,0,0,.2);
+    border-radius: 10px;
 }
 .left-img-col{
     background-image: url("../img/img-1.jpg");
